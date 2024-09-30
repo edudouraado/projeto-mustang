@@ -29,6 +29,9 @@ header {
     padding-top: 40px;
     background-color: #003478;
 }
+header > h1 {
+    width: 100%;
+}
 header > p {
     font-family: var(--fonte-ford);
     font-size: .5em;
