@@ -23,11 +23,12 @@ header {
     font-family: var(--fonte-ford);
     color: white;
     text-shadow: 5px 5px 2px black;
-    font-size: 100px;
+    font-size: 98px;
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
     background-color: #003478;
+    width: 100%;
 }
 header > h1 {
     width: 100%;
