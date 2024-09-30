@@ -1,0 +1,190 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'Ford';
+    src: url('fonte/Fordscript.ttf') format('truetype');
+    font-weight: normal;
+}
+:root{
+    --fonte-ford: 'Ford', cursive;
+    --fonte-texto: 'Noto Sans', cursive;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: var(--fonte-texto);
+    background-color: lightgray;
+}
+header {
+    font-family: var(--fonte-ford);
+    color: white;
+    text-shadow: 5px 5px 2px black;
+    font-size: 100px;
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+    background-color: #003478;
+}
+header > p {
+    font-family: var(--fonte-ford);
+    font-size: .5em;
+    color: white;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    padding-bottom: 20px;
+    text-shadow: 3px 3px 2px black;
+}
+nav {
+    font-size: 20px;
+    text-align: center;
+    background-color: #003478;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.123);
+}
+nav > a {
+    color: var(--cor1);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+nav > a:hover {
+    background-color: #2d548b8a;
+    color: white;
+}
+section {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    line-height: 2em;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: var(--fonte-texto);
+    font-size: 1.5vw;
+    text-decoration: solid;
+}
+section.imagem {
+    background-color: rgba(0, 0, 0, 0.527);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.404);
+    background-size: cover;
+    background-attachment: fixed;
+}
+section.imagem > h1 {
+    color: white;
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.562);
+    text-shadow: 1px 1px 0px black;
+}
+section.imagem > h2 {
+    color: white;
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.267);
+    text-shadow: 1px 1px 0px black;
+}
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.281);
+    text-shadow: 1px 1px 0px black;
+}
+section#img01 {
+    background-image: url(imagens/fundo-mustang.jpg);
+    background-position: center center;
+}
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+main h2 {
+    color: #003478;
+    font-family: var(--fonte-texto);
+    font-weight: normal;
+    font-size: 1.8em;
+}
+main p {
+    margin: 15px 0px 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+main strong {
+    color: #003478;
+    font-weight: bold;
+}
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #003478;
+    background-color: #003478;
+    padding: 2px 6px;
+}
+main a:hover {
+    text-decoration: underline;
+    color: #003478;
+}
+main img {
+    width: 100%;
+}
+aside {
+    background-color: #003478;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+}
+aside > h2 {
+    color: white;
+    font-weight: bold;
+    box-shadow: 1px 1px 5px black;
+}
+table {
+    border-collapse: collapse;
+}
+.tb1 {
+    font-size: bolder;
+    background-color: #002a61;
+    text-align: center;
+}
+td {
+    border: 1px solid white;
+    padding: 8px;
+}
+div.video {
+    background-color: var(--cor5);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
