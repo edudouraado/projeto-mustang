@@ -95,15 +95,21 @@ section.imagem > h2 {
     background-color: rgba(0, 0, 0, 0.267);
     text-shadow: 1px 1px 0px black;
 }
-section.imagem > p {
+section.imagem > ul {
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.281);
     text-shadow: 1px 1px 0px black;
 }
+ul {
+    list-style-type: '\00A0\00A0'
+}
 section#img01 {
     background-image: url(imagens/fundo-mustang.jpg);
     background-position: center center;
+}
+section#img01 > ul {
+    columns: 2;
 }
 main {
     min-width: 300px;
@@ -184,6 +190,15 @@ div.video > iframe {
     left: 5%;
     width: 90%;
     height: 90%;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%; 
+}
+#img02 {
+    width: 150px;
+    height: 100px;
 }
 footer {
     background-color: black;
