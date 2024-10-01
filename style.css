@@ -109,7 +109,8 @@ section#img01 {
     background-position: center center;
 }
 section#img01 > ul {
-    columns: 2;
+    columns: 3;
+    font-size: 3.5vh;
 }
 main {
     min-width: 300px;
